@@ -1,0 +1,172 @@
+/* Meu CSS */
+body,
+html{
+ margin:  0; 
+ padding: 0;
+ font-size:18px;
+}
+body{
+ background-image: url("troper.jpg");
+/* background-size:100%;
+ background-attachment:fixed;*/
+}
+a, a img{
+ text-decoration:none;
+ border:none;
+}
+img{
+ max-width:100%;
+ height:auto;
+}
+.principal{
+ width: 960px;
+ color: #444;
+ margin: 0 auto;
+ font-family:sans-serif;
+}
+.cabecalho, 
+.logo, 
+.rodape,
+.menu{
+ width:100%;
+ display:block;
+ clear:both;
+}
+.cabecalho{
+ height:100px;
+}
+.logo-cabecalho{
+ float:left;
+ background-color: #FFF;
+}
+.logo-cabecalho a{
+ font-size:50px;
+ font-style:italic;
+ text-decoration:none;
+ color:#000;
+ display:block;
+ padding:20px 0 0 0;
+}
+.pesquisa{
+ float:right;
+ margin-top:40px;
+ margin-right:10px;
+}
+.menu{
+ background:#125103;
+}
+.menu ul li, 
+.menu ul{
+ margin:0;
+ padding:0;
+ list-style:none;
+}
+.menu ul li{
+ display:inline-block;
+}
+.menu ul li a{
+ display:block;
+ color:#fff;
+ padding:13px 20px;
+}
+.corpo{
+ position:relative;
+ overflow:hidden;
+}
+.artigos{
+ float:left;
+}
+.artigos, .artigos:before{
+ width:70%;
+}
+.artigos:before{
+ position:absolute;
+ top:0;
+ left:0;
+ bottom:0;
+ background:#fff;
+ z-index:-1;
+ content:'';
+}
+.barra-lateral{
+ float:right;
+}
+.barra-lateral, .barra-lateral:before{
+ width:30%;
+}
+.barra-lateral:before{
+   content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+ right:0;
+    z-index: -1;
+    background: #f1f1f1;
+}
+.espacamento{
+ padding:20px;
+}
+.rodape{
+ padding:20px;
+ text-align:center;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    font-size: 1.3em;
+}
+
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+
+.box-livros{
+	width: 50%;
+	text-align: center;
+}
+
+.titulo-livro{
+	margin-top: 5px;
+	font-size: 1em;
+	color: #000;
+	line-height: 10px;
+	text-align: center;
+}
+.texto-livro{
+	font-size: 1em;
+	color: grey;
+	line-height: 1px;
+	text-align: center;
+}
+
+.btn-comprar{
+	background-color: #328093;
+	border: 0px solid #FFF;
+	border-radius: 5px;
+	padding: 10px;
+	color: #FFF;
+	margin-top: 5px;
+}
+.img-lirvo{
+	width: 150px !important;
+}
